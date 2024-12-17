@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETech - Beyond Extreme Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav>
+            <div class="logo">BETech</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#services" class="nav-item">Services</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-fade">Beyond Extreme Technology</h1>
+            <p class="animate-slide">Innovative Trading and Engineering Solutions</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-cogs"></i>
+                <h3>Engineering Services</h3>
+                <p>Precision, innovation, and reliability in engineering solutions.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Trading Solutions</h3>
+                <p>Strategic trading expertise with guaranteed success.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovative Technologies</h3>
+                <p>Cutting-edge solutions tailored for your unique needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At BETech, we aim to push the boundaries of what’s possible. With years of experience in engineering and trading solutions, we provide top-tier services with quality, creativity, and dedication.</p>
+        </div>
+        <div class="about-image">
+            <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/310430428_496013039205174_9019647185035511962_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEYZT4PEH9LOI80qduD5mkcAMjnChy6SZAAyOcKHLpJkHK3NXQxk3j243-UjqjXbjbNwR7TB-QpVBhqvxhxTEsS&_nc_ohc=mONpt1tDB6YQ7kNvgF9XLZe&_nc_oc=AdhSTegr0ArbKVl0UUqQX1u3kdoD0m9wMZoqke7uYPHxiJ2NYHq9m4lHIVCjzofM4Io&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=AOTehys9nuGMaOVWIYeQLSK&oh=00_AYAn_ZwvqxKjHKneKhGSKSGzht3Cc2zozjdJqkpDYsSKJQ&oe=6766D394" alt="About BETech">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Let’s collaborate to bring your ideas to life!</p>
+        <div class="contact-details">
+            <p><i class="fas fa-phone"></i> Phone: <a href="tel:+09171307728">0917 130 7728</a></p>
+            <p><i class="fab fa-facebook"></i> Facebook: <a href="https://www.facebook.com/BeyondExtremeTechnology" target="_blank">facebook.com/BETech</a></p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:pagi@byondxtrem.com">pagi@byondxtrem.com</a></p>
+        </div>
+        <a href="mailto:pagi@byondxtrem.com" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 BETech. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
